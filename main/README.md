@@ -1,6 +1,3 @@
-# Oregon-Tech-Jobs
-Open source API and backend server environment for the purposes of managing and sharing information about tech jobs in the Oregon area (but designed to be extended outside of Oregon as well).
-
 # Building & Testing
 ## Prerequisites
 - Vagrant
