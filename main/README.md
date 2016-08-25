@@ -8,6 +8,7 @@ After cloning the repository, run the `build_project.sh` script. This script wil
 On successful setup, you may visit most paths using either `http://localhost:8080` or `https://localhost:8443` (http vs. https matters). Database entries may be viewed through RockMongo at `http://localhost:8080/rock` (it **must** be http only).
 
 ###### Notes
+- The site root will provide an index page, displaying data for Eugene, OR using a front-end based on the pilot version and utilizing the API.
 - /rock requires authentication. Default username and password are both "admin".
 - Any API calls requiring authentication have the default username and password both "admin".
 - Obviously the above username/password combinations should be changed for live servers.
