@@ -1,3 +1,3 @@
-[submodule "ox-submodule"]
+[submodule "main/ox-submodule"]
 	path = main/ox-submodule
 	url = https://github.com/m2calabr/OxForMongo.git
