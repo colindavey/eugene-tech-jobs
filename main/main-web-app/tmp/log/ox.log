@@ -1,0 +1,1097 @@
+[27/Jul/2016:12:53:15] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[27/Jul/2016:12:53:15] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[27/Jul/2016:12:53:21] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[27/Jul/2016:12:53:21] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[27/Jul/2016:13:11:55] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[27/Jul/2016:13:11:55] WARNING AssemblerAction: ACCESS DENIED to path /jobs/removeCompany for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[27/Jul/2016:13:21:19] DEBUG Ox_Exception:File was not specified
+[27/Jul/2016:13:21:19] WARNING Ox_Router - route: Could not route:
+[27/Jul/2016:13:36:30] DEBUG Ox_Exception:File was not specified
+[27/Jul/2016:13:36:30] WARNING Ox_Router - route: Could not route:
+[27/Jul/2016:13:36:31] DEBUG Ox_Exception:File was not specified
+[27/Jul/2016:13:36:31] WARNING Ox_Router - route: Could not route:
+[27/Jul/2016:13:49:53] DEBUG Ox_Exception:File was not specified
+[27/Jul/2016:13:49:53] WARNING Ox_Router - route: Could not route:
+[27/Jul/2016:13:49:56] DEBUG Ox_Exception:File was not specified
+[27/Jul/2016:13:49:56] WARNING Ox_Router - route: Could not route:
+[27/Jul/2016:13:50:48] DEBUG Ox_Exception:File was not specified
+[27/Jul/2016:13:50:48] WARNING Ox_Router - route: Could not route:
+[29/Jul/2016:13:36:01] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[29/Jul/2016:13:36:01] WARNING AssemblerAction: ACCESS DENIED to path /jobs/populateDatabase for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[29/Jul/2016:13:36:01] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[29/Jul/2016:13:36:01] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[29/Jul/2016:13:36:01] WARNING Ox_Router - route: Could not route:/user/login
+[02/Aug/2016:16:58:30] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[02/Aug/2016:16:58:30] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getJobsList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[02/Aug/2016:16:58:30] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[02/Aug/2016:16:58:30] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[02/Aug/2016:16:58:30] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:17:23:45] ERROR Could not load assembler: /home/project/tao_api/constructs/a/assembler.php
+[03/Aug/2016:17:23:45] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/a/assembler.php
+[03/Aug/2016:17:23:45] WARNING Ox_Router - route: Could not route:/a
+[03/Aug/2016:17:23:57] WARNING Ox_Router - route: Could not route:/index.php
+[03/Aug/2016:17:36:53] ERROR Could not load assembler: /home/project/tao_api/constructs/root/assembler.php
+[03/Aug/2016:17:36:53] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/root/assembler.php
+[03/Aug/2016:17:36:53] WARNING Ox_Router - route: Could not route:/root
+[03/Aug/2016:17:37:01] ERROR Could not load assembler: /home/project/tao_api/constructs/root/assembler.php
+[03/Aug/2016:17:37:01] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/root/assembler.php
+[03/Aug/2016:17:37:01] WARNING Ox_Router - route: Could not route:/root/index.html
+[03/Aug/2016:17:48:15] ERROR Could not load assembler: /home/project/tao_api/constructs/webroot/assembler.php
+[03/Aug/2016:17:48:15] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/webroot/assembler.php
+[03/Aug/2016:17:48:15] WARNING Ox_Router - route: Could not route:/webroot
+[03/Aug/2016:17:48:27] ERROR Could not load assembler: /home/project/tao_api/constructs/webroot/assembler.php
+[03/Aug/2016:17:48:27] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/webroot/assembler.php
+[03/Aug/2016:17:48:27] WARNING Ox_Router - route: Could not route:/webroot/js/main_script.js
+[03/Aug/2016:18:08:31] ERROR Could not load assembler: /home/project/tao_api/constructs/edit/assembler.php
+[03/Aug/2016:18:08:31] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/edit/assembler.php
+[03/Aug/2016:18:08:31] WARNING Ox_Router - route: Could not route:/jobs/edit
+[03/Aug/2016:18:08:48] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:08:48] WARNING AssemblerAction: ACCESS DENIED to path /jobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:08:48] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:08:48] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:08:48] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:11:38] ERROR Could not load assembler: /home/project/tao_api/constructs/job/assembler.php
+[03/Aug/2016:18:11:38] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/job/assembler.php
+[03/Aug/2016:18:11:38] WARNING Ox_Router - route: Could not route:/job
+[03/Aug/2016:18:15:41] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:15:41] WARNING AssemblerAction: ACCESS DENIED to path /jobs/a for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:15:41] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:15:41] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:15:41] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:15:44] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:15:44] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:15:44] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:17:33] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:17:33] WARNING AssemblerAction: ACCESS DENIED to path /jobs/test for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:17:33] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:17:33] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:17:33] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:17:53] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:17:53] WARNING AssemblerAction: ACCESS DENIED to path /jobs/test for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:17:53] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:17:53] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:17:53] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:18:03] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:18:03] WARNING AssemblerAction: ACCESS DENIED to path /jobs/test for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:18:03] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:18:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:18:03] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:21:03] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:21:03] WARNING AssemblerAction: ACCESS DENIED to path /jobs/test for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:21:03] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:21:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:21:03] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:21:51] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:21:51] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:21:51] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:18:53:09] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[03/Aug/2016:18:53:09] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[03/Aug/2016:18:53:09] WARNING Ox_Router - route: Could not route://jobs/edit
+[03/Aug/2016:18:53:27] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:18:53:27] WARNING AssemblerAction: ACCESS DENIED to path /jobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:18:53:27] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:53:27] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:18:53:27] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:19:32:51] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:19:32:51] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:19:47:37] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:19:47:37] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:30:33] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs2/assembler.php
+[03/Aug/2016:20:30:33] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs2/assembler.php
+[03/Aug/2016:20:30:33] WARNING Ox_Router - route: Could not route:/jobs2
+[03/Aug/2016:20:32:01] ERROR Could not load assembler: /home/project/tao_api/constructs/js/assembler.php
+[03/Aug/2016:20:32:01] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/js/assembler.php
+[03/Aug/2016:20:32:01] WARNING Ox_Router - route: Could not route:/js/
+[03/Aug/2016:20:40:37] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:40:37] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:41:34] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:41:34] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:43:34] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:43:34] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:44:28] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:44:28] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:44:47] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:44:47] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:45:00] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:45:00] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:45:10] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:20:45:10] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:20:51:39] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:51:39] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:51:39] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:20:52:03] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:52:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:52:03] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:20:52:08] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:52:08] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:52:08] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:20:52:19] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:52:19] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:20:52:19] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:21:15:47] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:15:47] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:15:47] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:21:15:54] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:15:54] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:15:54] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:21:16:53] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:16:53] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:16:53] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:21:17:34] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:17:34] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:17:43] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:17:43] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:18:58] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:18:58] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:19:33] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:19:33] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:20:01] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:20:01] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:20:27] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:20:27] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:20:50] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:20:50] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:20:50] WARNING Ox_Router - route: Could not route:/jobs1/getJobList
+[03/Aug/2016:21:21:43] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:21:43] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:21:43] WARNING Ox_Router - route: Could not route:/jobs1/getJobList
+[03/Aug/2016:21:22:03] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:22:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:22:03] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:21:22:07] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:22:07] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:21:22:07] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:21:22:32] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:22:32] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:22:38] DEBUG Ox_Exception:Assembler 'jobs' does not have method: getJobList
+[03/Aug/2016:21:22:38] WARNING Ox_Router - route: Could not route:/jobs1/getJobList
+[03/Aug/2016:21:23:37] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:23:37] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:23:37] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:23:37] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:23:37] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:21:23:48] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:23:48] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:23:48] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:23:48] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:23:48] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:21:24:28] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:24:28] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:24:28] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:21:24:35] DEBUG Ox_Exception:Assembler 'jobs' does not have method: getJobList
+[03/Aug/2016:21:24:35] WARNING Ox_Router - route: Could not route:/jobs/getJobList
+[03/Aug/2016:21:24:58] DEBUG Ox_Exception:Assembler 'jobs' does not have method: getJobList
+[03/Aug/2016:21:24:58] WARNING Ox_Router - route: Could not route:/jobs/getJobList
+[03/Aug/2016:21:25:05] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:25:05] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:25:05] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:25:05] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:25:05] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:21:25:29] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:25:29] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:25:29] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:25:29] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:25:29] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:21:26:01] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:21:26:01] WARNING AssemblerAction: ACCESS DENIED to path /jobs/getVerboseJobsList for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:21:26:01] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:26:01] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:21:26:01] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:21:39] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:21:39] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:21:39] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:21:39] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:21:39] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:21:54] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:21:54] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/a for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:21:54] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:21:54] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:21:54] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:26:47] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:26:47] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:26:47] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:26:47] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:26:47] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:28:43] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:28:43] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/a for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:28:43] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:28:43] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:28:43] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:29:05] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:29:05] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/asd for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:29:05] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:29:05] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:29:05] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:30:27] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:30:27] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:30:27] WARNING Ox_Router - route: Could not route:/jobs1/edi
+[03/Aug/2016:23:30:34] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:30:34] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:30:34] WARNING Ox_Router - route: Could not route:/jobs1/e
+[03/Aug/2016:23:31:15] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:31:15] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:31:15] WARNING Ox_Router - route: Could not route:/jobs1/e
+[03/Aug/2016:23:33:19] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:33:19] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:33:19] WARNING Ox_Router - route: Could not route:/jobs1/e
+[03/Aug/2016:23:33:29] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:33:29] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:33:29] WARNING Ox_Router - route: Could not route:/jobs1/e
+[03/Aug/2016:23:35:48] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:35:48] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:35:48] WARNING Ox_Router - route: Could not route:/jobs1/e
+[03/Aug/2016:23:35:57] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:35:57] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:35:57] WARNING Ox_Router - route: Could not route:/jobs1/e
+[03/Aug/2016:23:40:15] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:40:15] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:40:15] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:40:21] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:40:21] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:40:21] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:40:34] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:40:34] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:40:34] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:42:07] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:42:07] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:42:07] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:42:22] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:42:22] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:42:22] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:43:40] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:43:40] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:43:40] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:43:47] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:43:47] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:43:47] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:44:03] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:03] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:44:10] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:10] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:10] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:44:22] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:22] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:22] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:44:50] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:50] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1/assembler.php
+[03/Aug/2016:23:44:50] WARNING Ox_Router - route: Could not route:/jobs1/
+[03/Aug/2016:23:52:55] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:52:55] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:52:55] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:52:55] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:52:55] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:54:10] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:54:10] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:54:10] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:54:10] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:54:10] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:55:52] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:55:52] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:55:52] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:55:52] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:55:52] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:58:40] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:58:40] WARNING AssemblerAction: ACCESS DENIED to path /jobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:58:40] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:58:40] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:58:40] WARNING Ox_Router - route: Could not route:/user/login
+[03/Aug/2016:23:59:09] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[03/Aug/2016:23:59:09] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[03/Aug/2016:23:59:09] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:59:09] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[03/Aug/2016:23:59:09] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:01:29] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:01:30] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:01:30] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:01:30] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:01:30] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:01:54] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:01:54] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:01:54] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:01:54] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:01:54] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:03:09] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:03:09] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:03:09] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:03:11] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:03:11] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:03:11] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:03:11] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:03:11] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:04:15] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:15] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:15] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:04:16] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:16] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:16] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:04:31] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:04:31] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:04:31] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:31] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:31] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:04:49] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:04:49] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:04:50] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:50] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:04:50] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:05:23] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:05:23] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e/ for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:05:23] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:05:23] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:05:23] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:06:10] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:06:10] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:06:10] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:06:10] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:06:10] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:07:31] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:07:31] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:07:31] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:07:31] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:07:31] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:08:00] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:08:01] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:08:01] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:08:01] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:08:01] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:09:12] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:09:12] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:09:12] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:09:12] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:09:12] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:09:23] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:09:23] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:09:23] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:09:25] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:09:25] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:09:25] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:09:25] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:09:25] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:12:34] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:12:34] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/ed for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:12:34] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:12:34] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:12:34] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:12:42] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:12:42] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:12:42] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:12:44] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:12:44] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:12:44] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:12:44] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:12:44] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:14:22] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:14:22] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:14:22] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:14:22] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:14:22] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:14:46] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:14:46] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:14:46] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:14:46] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:14:46] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:18:59] ERROR Could not load assembler: /home/project/tao_api/constructs/jobs1e/assembler.php
+[04/Aug/2016:00:18:59] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/jobs1e/assembler.php
+[04/Aug/2016:00:18:59] WARNING Ox_Router - route: Could not route:/jobs1e
+[04/Aug/2016:00:19:06] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:19:06] WARNING AssemblerAction: ACCESS DENIED to path /jobs1/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:19:06] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:19:06] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:19:06] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:26:03] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:26:03] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:26:03] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:26:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:26:03] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:28:30] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:00:28:30] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:00:28:30] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:28:30] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:00:28:30] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:00:34:24] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:34:24] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:34:24] WARNING Ox_Router - route: Could not route:/jobs
+[04/Aug/2016:00:35:06] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:35:06] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:35:06] WARNING Ox_Router - route: Could not route:/jobs/
+[04/Aug/2016:00:35:09] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:35:09] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:35:09] WARNING Ox_Router - route: Could not route:/jobs/edit
+[04/Aug/2016:00:37:11] ERROR Could not load assembler: /home/project/tao_api/constructs/root/assembler.php
+[04/Aug/2016:00:37:11] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/root/assembler.php
+[04/Aug/2016:00:37:11] WARNING Ox_Router - route: Could not route:/jobs/
+[04/Aug/2016:00:38:16] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:38:16] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:38:16] WARNING Ox_Router - route: Could not route:/jobs/
+[04/Aug/2016:00:53:25] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:53:25] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:00:53:25] WARNING Ox_Router - route: Could not route:/jobs/
+[04/Aug/2016:01:04:20] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:01:04:20] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:01:04:20] WARNING Ox_Router - route: Could not route:/jobs/
+[04/Aug/2016:01:04:25] ERROR Could not load assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:01:04:25] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs//assembler.php
+[04/Aug/2016:01:04:25] WARNING Ox_Router - route: Could not route:/jobs/edit
+[04/Aug/2016:01:18:08] DEBUG Ox_Exception:File was not specified
+[04/Aug/2016:01:18:08] WARNING Ox_Router - route: Could not route:
+[04/Aug/2016:01:18:11] DEBUG Ox_Exception:File was not specified
+[04/Aug/2016:01:18:11] WARNING Ox_Router - route: Could not route:
+[04/Aug/2016:01:19:09] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:01:19:09] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:01:19:09] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:01:19:09] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:01:19:09] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:01:19:26] ERROR Could not load assembler: /home/project/tao_api/constructs/job/assembler.php
+[04/Aug/2016:01:19:26] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/job/assembler.php
+[04/Aug/2016:01:19:26] WARNING Ox_Router - route: Could not route:/job/edit
+[04/Aug/2016:10:47:16] WARNING Ox_Router - route: Could not route:/jobs
+[04/Aug/2016:10:47:25] WARNING Ox_Router - route: Could not route:/jobs/edit
+[04/Aug/2016:10:51:28] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:51:28] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:51:28] WARNING Ox_Router - route: Could not route:/techjobs/
+[04/Aug/2016:10:51:43] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:51:43] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:51:43] WARNING Ox_Router - route: Could not route:/techjobs/
+[04/Aug/2016:10:53:56] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:53:56] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:53:56] WARNING Ox_Router - route: Could not route:/techjobs/e
+[04/Aug/2016:10:54:07] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:54:07] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:54:07] WARNING Ox_Router - route: Could not route:/techjobs/e
+[04/Aug/2016:10:55:25] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:55:25] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:55:25] WARNING Ox_Router - route: Could not route:/techjobs/edit
+[04/Aug/2016:10:55:41] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:55:41] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:10:55:41] WARNING Ox_Router - route: Could not route:/techjobs/edit
+[04/Aug/2016:11:00:03] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:11:00:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:11:00:03] WARNING Ox_Router - route: Could not route:/techjobs/getVerboseJobList
+[04/Aug/2016:11:00:42] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:11:00:42] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:11:00:42] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:11:00:42] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:11:00:42] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:11:01:37] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:11:01:37] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:11:01:37] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:11:01:37] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:11:01:37] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:11:04:15] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:11:04:15] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:11:04:15] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:11:04:15] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:11:04:15] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:12:40:11] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:12:40:11] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/edi for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:12:40:11] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:12:40:11] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:12:40:11] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:14:18:18] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:14:18:18] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/ed for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:14:18:18] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:14:18:18] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:14:18:18] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:15:44:02] WARNING Ox_Router - route: Could not route:/jobs
+[04/Aug/2016:16:03:14] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:16:03:14] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/e for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:16:03:14] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:16:03:14] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:16:03:14] WARNING Ox_Router - route: Could not route:/user/login
+[04/Aug/2016:19:17:25] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:17:25] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:17:25] WARNING Ox_Router - route: Could not route:/techjobs/
+[04/Aug/2016:19:17:45] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:17:45] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:17:45] WARNING Ox_Router - route: Could not route:/techjobs/
+[04/Aug/2016:19:54:17] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:54:17] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:54:17] WARNING Ox_Router - route: Could not route:/techjobs/
+[04/Aug/2016:19:54:37] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:54:37] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[04/Aug/2016:19:54:37] WARNING Ox_Router - route: Could not route:/techjobs/edit
+[04/Aug/2016:20:18:51] DEBUG Sending Headers  HTML/1.1 401 Authorization Required
+[04/Aug/2016:20:18:51] WARNING AssemblerAction: ACCESS DENIED to path /techjobs/ed for userOx_UserMongo Object
+(
+    [user:protected] => Array
+        (
+        )
+
+    [userCollection:protected] => users
+)
+
+[04/Aug/2016:20:18:51] ERROR Could not load assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:20:18:51] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/user/assembler.php
+[04/Aug/2016:20:18:51] WARNING Ox_Router - route: Could not route:/user/login
+[09/Aug/2016:14:42:17] ERROR Could not load assembler: /home/project/tao_api/constructs/edit/assembler.php
+[09/Aug/2016:14:42:17] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/edit/assembler.php
+[09/Aug/2016:14:42:17] WARNING Ox_Router - route: Could not route:/edit
+[14/Aug/2016:18:45:47] ERROR Could not load assembler: /home/project/tao_api/constructs/job/assembler.php
+[14/Aug/2016:18:45:47] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/job/assembler.php
+[14/Aug/2016:18:45:47] WARNING Ox_Router - route: Could not route:/job
+[14/Aug/2016:18:45:56] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[14/Aug/2016:18:45:56] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[14/Aug/2016:18:45:56] WARNING Ox_Router - route: Could not route:/techjobs/getVerboseJobList
+[14/Aug/2016:18:46:25] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[14/Aug/2016:18:46:25] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[14/Aug/2016:18:46:25] WARNING Ox_Router - route: Could not route:/techjobs/getVerboseJobList
+[14/Aug/2016:18:49:50] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[14/Aug/2016:18:49:50] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[14/Aug/2016:18:49:50] WARNING Ox_Router - route: Could not route:/techjobs/getVerboseJobList
+[16/Aug/2016:21:27:40] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[16/Aug/2016:21:27:40] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[16/Aug/2016:21:27:40] WARNING Ox_Router - route: Could not route:/techjobs/
+[16/Aug/2016:21:27:47] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[16/Aug/2016:21:27:47] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[16/Aug/2016:21:27:47] WARNING Ox_Router - route: Could not route:/techjobs/
+[17/Aug/2016:12:55:16] ERROR Could not load assembler: /home/project/tao_api/constructs/e/assembler.php
+[17/Aug/2016:12:55:16] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/e/assembler.php
+[17/Aug/2016:12:55:16] WARNING Ox_Router - route: Could not route:/e
+[17/Aug/2016:13:28:03] ERROR Could not load assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[17/Aug/2016:13:28:03] DEBUG Ox_Exception:Could not find Assembler: /home/project/tao_api/constructs/techjobs/assembler.php
+[17/Aug/2016:13:28:03] WARNING Ox_Router - route: Could not route:/techjobs/edit
