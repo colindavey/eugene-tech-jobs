@@ -4,7 +4,7 @@
 git submodule init
 git submodule update
 
-#If not project build currently exists, create the directory for it.
+#If no project build currently exists, create the directory for it.
 mkdir -p project-build
 
 #Move all VM information for migration into new project-build, suppressing errors if no VM exists.
@@ -21,6 +21,7 @@ mv project-build/app-blank project-build/main-web-app
 #Remove any unneeded files or files to be replaced from fresh project.
 rm -rf project-build/main-web-app/constructs/root/*
 rm project-build/main-web-app/webroot/.htaccess
+rm project-build/main-web-app/config/app.php
 rm project-build/main-web-app/Vagrant/Vagrantfile
 rm project-build/main-web-app/Vagrant/bootstrap.sh
 
@@ -42,6 +43,12 @@ cp -rf main-web-app/lib/* project-build/main-web-app/lib
 cp -rf passwd project-build/passwd
 cp main-web-app/Vagrant/Vagrantfile project-build/main-web-app/Vagrant/
 cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant/bootstrap.sh
+
+#For custom application configuration (e.g. production environment).
+if [ -a app.php ] ;
+	then cp app.php project-build/main-web-app/config ;
+	else cp main-web-app/config/app.php project-build/main-web-app/config ;
+fi
 
 #Migrate any pre-existing VM information into project.
 cp -rf tmp/* project-build/main-web-app/Vagrant/.vagrant/machines/default/virtualbox 2>/dev/null || :
