@@ -38,16 +38,21 @@ cp -rf main-web-app/constructs/root/* project-build/main-web-app/constructs/root
 cp main-web-app/constructs/_common/layouts/edit.php project-build/main-web-app/constructs/_common/layouts
 cp -rf main-web-app/webroot/js/* project-build/main-web-app/webroot/js
 cp -rf main-web-app/webroot/css/* project-build/main-web-app/webroot/css
-cp main-web-app/webroot/.htaccess project-build/main-web-app/webroot
 cp -rf main-web-app/lib/* project-build/main-web-app/lib
 cp -rf passwd project-build/passwd
 cp main-web-app/Vagrant/Vagrantfile project-build/main-web-app/Vagrant/
 cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant/bootstrap.sh
 
-#For custom application configuration (e.g. production environment).
+##For custom application configuration (e.g. production environment).
 if [ -a app.php ] ;
 	then cp app.php project-build/main-web-app/config ;
 	else cp main-web-app/config/app.php project-build/main-web-app/config ;
+fi
+
+##For custom .htaccess configuration (e.g. production environment).
+if [ -a .htaccess ] ;
+	then cp .htaccess project-build/main-web-app/webroot ;
+	else cp main-web-app/webroot/.htaccess project-build/main-web-app/webroot ;
 fi
 
 #Migrate any pre-existing VM information into project.
