@@ -40,8 +40,8 @@ cp -rf main-web-app/webroot/js/* project-build/main-web-app/webroot/js
 cp -rf main-web-app/webroot/css/* project-build/main-web-app/webroot/css
 cp -rf main-web-app/lib/* project-build/main-web-app/lib
 cp -rf passwd project-build/passwd
-cp main-web-app/Vagrant/Vagrantfile project-build/main-web-app/Vagrant/
-cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant/bootstrap.sh
+cp main-web-app/Vagrant/Vagrantfile project-build/main-web-app/Vagrant
+cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant
 
 ##For custom application configuration (e.g. production environment).
 if [ -a app.php ] ;
@@ -53,6 +53,18 @@ fi
 if [ -a .htaccess ] ;
 	then cp .htaccess project-build/main-web-app/webroot ;
 	else cp main-web-app/webroot/.htaccess project-build/main-web-app/webroot ;
+fi
+
+##For custom .htaccess configuration (e.g. production environment).
+if [ -a Vagrantfile ] ;
+	then cp Vagrantfile project-build/main-web-app/Vagrant ;
+	else cp main-web-app/Vagrant/Vagrantfile project-build/main-web-app/Vagrant ;
+fi
+
+##For custom .htaccess configuration (e.g. production environment).
+if [ -a bootstrap.sh ] ;
+	then cp bootstrap.sh project-build/main-web-app/Vagrant ;
+	else cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant ;
 fi
 
 #Migrate any pre-existing VM information into project.
