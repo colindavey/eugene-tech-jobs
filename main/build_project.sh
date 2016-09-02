@@ -55,13 +55,13 @@ if [ -a .htaccess ] ;
 	else cp main-web-app/webroot/.htaccess project-build/main-web-app/webroot ;
 fi
 
-##For custom .htaccess configuration (e.g. production environment).
+##For custom Vagrantfile configuration (e.g. production environment).
 if [ -a Vagrantfile ] ;
 	then cp Vagrantfile project-build/main-web-app/Vagrant ;
 	else cp main-web-app/Vagrant/Vagrantfile project-build/main-web-app/Vagrant ;
 fi
 
-##For custom .htaccess configuration (e.g. production environment).
+##For custom bootstrap.sh configuration (e.g. production environment).
 if [ -a bootstrap.sh ] ;
 	then cp bootstrap.sh project-build/main-web-app/Vagrant ;
 	else cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant ;
