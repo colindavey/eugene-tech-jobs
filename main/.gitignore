@@ -1,4 +1,6 @@
 /project-build
 /project-build/*
+/Vagrantfile
+/bootstrap.sh
 /app.php
 /.htaccess
