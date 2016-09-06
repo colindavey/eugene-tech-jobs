@@ -75,7 +75,7 @@ function makeItem(company) {
 			'<div class="col-xs-9">' +
 				(
 				company.link
-				? '<a href="' + company.link + '" target="link">' + company.name + '</span></a>'
+				? '<a href="' + company.link + '" target="link" onclick="trackOutboundLink(\'' + company.link + '\');return false;">' + company.name + '</span></a>'
 				: company.name
 				) +
 			'</div>' +
