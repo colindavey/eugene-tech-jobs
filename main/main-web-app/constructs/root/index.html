@@ -25,7 +25,7 @@
 		var trackOutboundLink = function(url) {
 			ga('send', 'event', 'outbound', 'click', url, {
 				'transport': 'beacon',
-				'hitCallback': function(){window.location(url, '_blank');}
+				'hitCallback': function(){window.open(url, '_blank');}
 			});
 		}
 	</script>
