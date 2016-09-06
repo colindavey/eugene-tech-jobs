@@ -6,3 +6,4 @@
 /.htaccess
 /.htpasswd
 /init_production.sh
+/update_production.sh
