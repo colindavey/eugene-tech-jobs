@@ -19,7 +19,7 @@
 SetEnvIf Request_URI ^/jobs/.+$ not_index
 
 AuthUserFile /home/project/passwd/.htpasswd
-AuthGroupFile /dev/null
+#AuthGroupFile /dev/null
 AuthName "Trusted User"
 AuthType Basic
 Order allow,deny

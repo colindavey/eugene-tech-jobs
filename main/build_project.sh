@@ -67,6 +67,11 @@ if [ -a bootstrap.sh ] ;
 	else cp main-web-app/Vagrant/bootstrap.sh project-build/main-web-app/Vagrant ;
 fi
 
+##For custom .htpasswd configuration (e.g. production environment).
+if [ -a .htpasswd ] ;
+        then rm project-build/passwd/.htpasswd ; cp .htpasswd project-build/passwd ;
+fi
+
 #Migrate any pre-existing VM information into project.
 cp -rf tmp/* project-build/main-web-app/Vagrant/.vagrant/machines/default/virtualbox 2>/dev/null || :
 rm -rf tmp
