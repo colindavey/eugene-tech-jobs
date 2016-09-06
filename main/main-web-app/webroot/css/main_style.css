@@ -75,3 +75,24 @@ img.shire-logo {
 
 .company-job-openings {
 }
+
+@media (max-width: 992px) {
+	.company-title {
+		display: inline-block;
+	}
+	
+	.company-item {
+		display: block;
+		width: 100%;
+		min-height: 3em;
+	}
+	
+	.company-item {
+		border-radius: 0;
+		border-top: 1px solid rgba(0,0,0,0.125);
+	}
+	
+	body * {
+		font-size: 1.02em;
+	}
+}
