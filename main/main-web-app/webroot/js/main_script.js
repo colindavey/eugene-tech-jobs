@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 			data = _(response).map(function(cell){
 				return {
 					"name": cell.name + '',
-					"link": (cell.link && cell.link.indexOf("http") < 0 ? "https://" + cell.link : cell.link) + '',
+					"link": (cell.link && cell.link.indexOf("http") < 0 ? "http://" + cell.link : cell.link) + '',
 					"openings": cell.openjobcount * 1
 				};
 			});
