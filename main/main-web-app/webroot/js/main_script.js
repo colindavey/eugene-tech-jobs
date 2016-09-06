@@ -44,15 +44,21 @@ function initDataDOM(data) {
     numCompaniesHiring = companiesHiring.size();
     companiesHtml = "";
 	companiesHiringHtml = "";
-    
-	var jobHtml;
-    for(var i = 0; i < numCompanies; i++) {
-		jobHtml = makeItem(companies.get(i));
-		companiesHtml += jobHtml;
-		if(companies.get(i).openings) companiesHiringHtml += jobHtml;
-	}
+    var outerColumnStyle = "col-sm-12 col-md-6";
 	
-    jQuery("#numJobs").text(companies.sumBy('openings'));
+	var cutoff1 = Math.ceil(numCompanies/4);
+	var cutoff2 = Math.ceil(numCompanies/2) + (numCompanies % 4 == 2 ? 1 : 0);
+	var cutoff3 = Math.ceil(numCompanies/4 * 3);
+	companiesHtml += makeOuterColumn(0, cutoff1, cutoff2, companies, outerColumnStyle);
+	companiesHtml += makeOuterColumn(cutoff2, cutoff3, numCompanies, companies, outerColumnStyle);
+	
+	cutoff1 = Math.ceil(numCompaniesHiring/4);
+	cutoff2 = Math.ceil(numCompaniesHiring/2) + (numCompaniesHiring % 4 == 2 ? 1 : 0);
+	cutoff3 = Math.ceil(numCompaniesHiring/4 * 3);
+	companiesHiringHtml += makeOuterColumn(0, cutoff1, cutoff2, companiesHiring, outerColumnStyle);
+	companiesHiringHtml += makeOuterColumn(cutoff2, cutoff3, numCompaniesHiring, companiesHiring, outerColumnStyle);
+	
+	jQuery("#numJobs").text(companies.sumBy('openings'));
 	updateDOM();
 }
 
@@ -66,9 +72,27 @@ function updateDOM() {
 	}
 }
 
+function makeOuterColumn(begin, middle, end, companies, bootstrap_style_str) {
+	var innerColumnStyle = "col-sm-12 col-lg-6";
+	var columnHtml = '<div class="outer ' + bootstrap_style_str + '">';
+	columnHtml += makeInnerColumn(begin, middle, companies, innerColumnStyle);
+	columnHtml += makeInnerColumn(middle, end, companies, innerColumnStyle);
+	columnHtml += '</div>';
+	return columnHtml;
+}
+
+function makeInnerColumn(start, end, companies, bootstrap_style_str) {
+	var columnHtml = '<div class="inner ' + bootstrap_style_str + '">';
+    for(var i = start; i < end; i++) {
+		columnHtml += makeItem(companies.get(i), companies.get(i)._id);
+	}
+	columnHtml += '</div>';
+	return columnHtml;
+}
+
 function makeItem(company) {
 	item =
-		'<article class="company-item col-sm-6 col-md-4 col-lg-3"><div>' +
+		'<article class="company-item"><div>' +
 			'<div class="col-xs-1">' +
 				'<span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>' +
 			'</div>' +
