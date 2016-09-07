@@ -88,12 +88,12 @@
 			else $openjobcount = !is_numeric($_POST["openjobcount"]) ? 0 : max($_POST["openjobcount"], 0); //type-check and set a value floor
 			
 			$doc = array(
-				"name"=>$_POST["name"],
-				"link"=>$_POST["link"],
-				"openjobcount"=>$_POST["openjobcount"],
+				"name"=>trim($_POST["name"]),
+				"link"=>trim($_POST["link"]),
+				"openjobcount"=>trim($_POST["openjobcount"]),
 				"location"=>array(
-					"state"=>strtolower($_POST["state"]),
-					"city"=>strtolower($_POST["city"])
+					"state"=>strtolower(trim($_POST["state"])),
+					"city"=>strtolower(trim($_POST["city"]))
 				)
 			);
 			$db->Companies->insert($doc);
