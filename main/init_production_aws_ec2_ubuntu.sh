@@ -3,23 +3,6 @@
 projectName=tao_api
 
 # ------------------------------------------------
-# Initialize/update project folder
-# ------------------------------------------------
-echo '***************************** Setting up project directory *****************************'
-echo "#!/bin/bash
-./build_project.sh
-rm -rf /home/project
-mkdir /home/project
-mv project-build/main-web-app /home/project/$projectName
-mv project-build/ox /home/project
-mv project-build/passwd /home/project
-rm -rf project-build" > update_production.sh
-
-#Make this file executable and run it once.
-chmod 777 update_production.sh
-./update_production.sh
-
-# ------------------------------------------------
 # Update the box release repositories
 # ------------------------------------------------
 echo '***************************** Setting up needed Repos *****************************'
@@ -108,9 +91,28 @@ echo "
 </Directory>
 " >> /etc/apache2/apache2.conf
 
+
+# ------------------------------------------------
+# Initialize/update project folder
+# ------------------------------------------------
+echo '***************************** Setting up project directory *****************************'
+echo "#!/bin/bash
+./build_project.sh
+rm -rf /home/project
+mkdir /home/project
+mv project-build/main-web-app /home/project/$projectName
+mv project-build/ox /home/project
+mv project-build/passwd /home/project
+rm -rf project-build
+
 # Gives Apache write permissions for ox.log
 touch /home/project/$projectName/tmp/log/ox.log
-chown -R www-data:www-data /home/project/$projectName/tmp
+chown -R www-data:www-data /home/project/$projectName/tmp" > update_production.sh
+
+#Make this file executable and run it once.
+chmod 777 update_production.sh
+./update_production.sh
+
 
 echo '***************************** Add extra mod and generate testing certificate *****************************'
 make-ssl-cert generate-default-snakeoil --force-overwrite
