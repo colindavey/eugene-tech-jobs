@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 		url: '/jobs/',
 		type: 'GET',
 		data: {
-			locations: {0: {state: "oregon", city: "eugene"}}
+			locations: {0: {state: "oregon"}}
 		},
 		success: function (response) {
 			data = _(response).map(function(cell){
