@@ -92,7 +92,11 @@ img.shire-logo {
 		border-top: 1px solid rgba(0,0,0,0.125);
 	}
 	
-	body * {
+	#jobsList, .hiring-toggle {
 		font-size: 1.02em;
+	}
+	
+	h1 {
+		font-size: 1.8em;
 	}
 }
