@@ -4,6 +4,7 @@
 		
 		function __construct() {
 			$this->layout = 'ajax';
+			header("Access-Control-Allow-Origin: *");
 			$this->roles = array(
 				'index'=>array('anonymous'),
 				'edit'=>array('anonymous'),
