@@ -85,9 +85,8 @@ img.shire-logo {
 		display: block;
 		width: 100%;
 		min-height: 3em;
-	}
-	
-	.company-item {
+		height: auto;
+		overflow: auto;
 		border-radius: 0;
 		border-top: 1px solid rgba(0,0,0,0.125);
 	}
