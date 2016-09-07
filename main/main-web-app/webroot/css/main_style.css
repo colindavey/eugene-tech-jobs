@@ -59,7 +59,9 @@ img.shire-logo {
 }
 
 .company-item {
-	height: 3em;
+	min-height: 3em;
+	height: auto;
+	overflow: auto;
     border-radius: 10px;
 }
 
