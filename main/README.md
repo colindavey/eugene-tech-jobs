@@ -13,6 +13,8 @@ On successful setup, you may visit most paths using either `http://localhost:808
 - Any API calls requiring authentication have the default username and password both "admin".
 - Obviously the above username/password combinations should be changed for live servers.
 
+# Production
+
 # API Calls
 ##/jobs
 Desc: Retrieves jobs data for displaying on webpage.
