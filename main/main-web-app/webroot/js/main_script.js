@@ -84,14 +84,14 @@ function makeOuterColumn(begin, middle, end, companies, bootstrap_style_str) {
 function makeInnerColumn(start, end, companies, bootstrap_style_str) {
 	var columnHtml = '<div class="inner ' + bootstrap_style_str + '">';
     for(var i = start; i < end; i++) {
-		columnHtml += makeItem(companies.get(i), companies.get(i)._id);
+		columnHtml += makeItem(companies.get(i));
 	}
 	columnHtml += '</div>';
 	return columnHtml;
 }
 
 function makeItem(company) {
-	item =
+	var item =
 		'<article class="company-item"><div>' +
 			'<div class="col-xs-1">' +
 				'<span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>' +
