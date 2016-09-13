@@ -92,7 +92,7 @@ function makeInnerColumn(start, end, companies, bootstrap_style_str) {
 
 function makeItem(company) {
 	var item =
-		'<article class="company-item"><div>' +
+		'<article class="company-item row"><div>' +
 			'<div class="col-xs-1">' +
 				'<span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>' +
 			'</div>' +
