@@ -90,7 +90,7 @@ function setCityDropdownFilters(data) {
 	var cities = getUniqueCities(data);
 	var dropdownHtml = "<option value=\"blank\"> -- </option>";
 	for(var i = 0; i < cities.length; i++) {
-		dropdownHtml += "<option value=\"" + cities[i] + "\">" + cities[i] + "</option>";
+		dropdownHtml += "<option value=\"" + cities[i].replace(" ", "_") + "\">" + cities[i] + "</option>";
 	}
 	jQuery("#cityFilters").append(dropdownHtml);
 }
@@ -125,7 +125,7 @@ function makeInnerColumn(start, end, companies, bootstrap_style_str) {
 
 function makeItem(company) {
 	var item =
-		'<article class="company-item row city_' + company.city + '"><div>' +
+		'<article class="company-item row city_' + company.city.replace(" ", "_") + '"><div>' +
 			'<div class="col-xs-9">' +
 				(
 				company.link
