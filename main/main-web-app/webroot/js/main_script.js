@@ -79,6 +79,9 @@ function getUniqueCities(data) {
 	for(var i = 0; i < data.size(); i++) {
 		if(unique.indexOf(data.get(i).city) < 0) unique.push(data.get(i).city);
 	}
+	unique.sort(function(a, b) {
+		return a.localeCompare(b);
+	});
 	
 	return unique;
 }
