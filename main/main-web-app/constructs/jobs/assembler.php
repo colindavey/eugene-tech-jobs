@@ -12,8 +12,26 @@
 				'addCompany'=>array('anonymous'),
 				'updateCompany'=>array('anonymous'),
 				'removeCompany'=>array('anonymous'),
-				'populateDatabase'=>array('anonymous')
+				'populateDatabase'=>array('anonymous'),
+				'oregon'=>array('anonymous')
 			);
+		}
+		
+		private function getRedactedDocs($in_docs) {
+			$company_objects = array();
+			foreach($in_docs as $doc) {
+				//collapse doc and strip fields not intended for client to see
+				$reduced_doc = array(
+					"name"=>$doc["name"],
+					"link"=>$doc["link"],
+					"state"=>$doc["location"]["state"],
+					"city"=>$doc["location"]["city"],
+					"openjobcount"=>$doc["openjobcount"]
+				);
+				array_push($company_objects, $reduced_doc);
+			}
+			
+			return $company_objects;
 		}
 		
 		public function index() {
@@ -27,19 +45,24 @@
 			$company_docs = $db->Companies->find($query);
 			
 			//prepare data to send to client
-			$company_objects = array();
-			foreach($company_docs as $doc) {
-				//collapse doc and strip fields not intended for client to see
-				$reduced_doc = array(
-					"name"=>$doc["name"],
-					"link"=>$doc["link"],
-					"state"=>$doc["location"]["state"],
-					"city"=>$doc["location"]["city"],
-					"openjobcount"=>$doc["openjobcount"]
-				);
-				array_push($company_objects, $reduced_doc);
-			}
+			$company_objects = $this->getRedactedDocs($company_docs);
 			echo json_encode($company_objects, JSON_FORCE_OBJECT); 
+		}
+		
+		public function oregon() {
+			header('Content-Type: application/json');
+			$db = Ox_LibraryLoader::DB();
+			$cities = array();
+			for($i = 0; $i < func_num_args(); $i++) {
+				$city = func_get_arg($i);
+				if(strlen($city) > 0) $cities[] = $city;
+			}
+			$query_constructor = new MongoQueryConstructor();
+			$query_constructor->addStateAndCities("oregon", $cities);
+			$company_docs = $db->Companies->find($query_constructor->getQuery());
+			$company_objects = $this->getRedactedDocs($company_docs);
+			
+			echo json_encode($company_objects, JSON_FORCE_OBJECT);
 		}
 		
 		public function edit() {

@@ -66,6 +66,43 @@ $.ajax({
 ```
 https://localhost:8443/jobs?locations[0][state]=oregon&locations[0][city]=eugene&locations[1][state]=oregon&locations[1][city]=portland&locations[2][state]=california
 ```
+
+##/jobs/oregon
+Desc: New, quick API call. Retrieves jobs data for displaying on webpage.
+
+Method: GET
+
+Auth: None.
+
+Accepts: Nothing.
+
+Returns: A JSON object containing...
+- name - The name of the company.
+- link - A link to the company's careers page.
+- state - The state the company is located in.
+- city - The city the company is located in.
+- openjobcount - The number of open positions at the company.
+
+Behavior:
+- Parameters (as cities) are passed directly into the URL in the form /jobs/oregon/oregon_city_1/oregon_city_2/.../oregon_city_n.
+- If no valid parameters are sent to the server, then the server will send back all oregon jobs data by default.
+- If any invalid data is passed to the server, this data will simply be ignored.
+- Minimum job counts cannot be specified for this method.
+
+Example which will receive data from only the cities Eugene and Portland in Oregon, and all of the data from California with no minimum openings restriction...
+ 
+###### Via ajax:
+```
+$.ajax({
+    url: 'https://localhost:8443/jobs/oregon/eugene/portland',
+    type: 'GET'
+});
+```
+ 
+###### Via query string:
+```
+https://localhost:8443/jobs/oregon/eugene/portland
+```
  
 ## /jobs/edit
 Desc: Accesses the editing UI.

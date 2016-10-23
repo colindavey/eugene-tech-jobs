@@ -1,21 +1,32 @@
 jQuery(document).ready(function() {
 	jQuery.ajax({
-		url: '/jobs/',
+		url: '/jobs/oregon/',
 		type: 'GET',
-		data: {
-			locations: {0: {state: "oregon"}}
-		},
 		success: function (response) {
 			data = _(response).map(function(cell){
 				return {
 					"name": cell.name + '',
 					"link": (cell.link && cell.link.indexOf("http") < 0 ? "http://" + cell.link : cell.link) + '',
-					"openings": cell.openjobcount * 1
+					"openings": cell.openjobcount * 1,
+					"city": cell.city
 				};
 			});
 			initDataDOM(data);
 	
 			jQuery('#chkHiring').on('click',toggleHiring);
+		}
+	});
+	
+	jQuery('#cityFilters').click(function() {
+		var city_filter = jQuery('#cityFilters').val();
+		var all_companies = jQuery('.company-item');
+		if(city_filter != "blank") {
+			all_companies.hide();
+			var filtered_companies = jQuery('.city_' + city_filter);
+			filtered_companies.show();
+		}
+		else {
+			all_companies.show();
 		}
 	});
 });
@@ -60,6 +71,25 @@ function initDataDOM(data) {
 	
 	jQuery("#numJobs").text(companies.sumBy('openings'));
 	updateDOM();
+	setCityDropdownFilters(data);
+}
+
+function getUniqueCities(data) {
+	var unique = [];
+	for(var i = 0; i < data.size(); i++) {
+		if(unique.indexOf(data.get(i).city) < 0) unique.push(data.get(i).city);
+	}
+	
+	return unique;
+}
+
+function setCityDropdownFilters(data) {
+	var cities = getUniqueCities(data);
+	var dropdownHtml = "<option value=\"blank\"> -- </option>";
+	for(var i = 0; i < cities.length; i++) {
+		dropdownHtml += "<option value=\"" + cities[i] + "\">" + cities[i] + "</option>";
+	}
+	jQuery("#cityFilters").append(dropdownHtml);
 }
 
 function updateDOM() {
@@ -92,10 +122,7 @@ function makeInnerColumn(start, end, companies, bootstrap_style_str) {
 
 function makeItem(company) {
 	var item =
-		'<article class="company-item row"><div>' +
-			'<div class="col-xs-1">' +
-				'<span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>' +
-			'</div>' +
+		'<article class="company-item row city_' + company.city + '"><div>' +
 			'<div class="col-xs-9">' +
 				(
 				company.link
@@ -103,7 +130,7 @@ function makeItem(company) {
 				: company.name
 				) +
 			'</div>' +
-			'<div class="col-xs-1">' +
+			'<div class="col-xs-3">' +
 				'<span class="company-job-openings">' +
 					(
 					company.openings

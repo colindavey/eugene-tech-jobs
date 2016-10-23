@@ -3,11 +3,14 @@
 		private $_query_args_array; //the array to be constructed into a mongo query
 		private $_get_data; //data received from client via $_GET
 		
-		function __construct($get_data) {
+		function __construct($get_data = null) {
 			$this->_query_args_array = array();
-			$this->_get_data = $get_data;
-			$this->addLocationsFromGETParams();
-			$this->addMinimumJobCountFromGETParams();
+			
+			if(!is_null($get_data)) {	
+				$this->_get_data = $get_data;
+				$this->addLocationsFromGETParams();
+				$this->addMinimumJobCountFromGETParams();
+			}
 		}
 		
 		function addLocationsFromGETParams() {
@@ -31,6 +34,21 @@
 			$minimum = isset($this->_get_data["minopenings"]) ? $this->_get_data["minopenings"] : 0;
 			if(!is_numeric($minimum) || $minimum <= 0) return; //don't bother adding missing or useless query
 			$this->_query_args_array["openjobcount"] = array('$gte'=>$minimum);
+		}
+		
+		function addStateAndCities($state = null, $cities = null) {
+			if(is_null($state)) return;
+			if(!isset($this->_query_args_array['$or'])) $this->_query_args_array['$or'] = array();
+			$entry = array("location.state"=>strtolower($state));
+			if(!is_null($cities) && count($cities) > 0) {
+				$lower_case_cities = array();
+				for($i = 0; $i < count($cities); $i++) {
+					$lower_case_cities[] = strtolower($cities[$i]);
+				}
+				$entry["location.city"] = array('$in'=>$lower_case_cities);
+			}
+			
+			$this->_query_args_array['$or'][] = $entry;
 		}
 		
 		function getQuery() {
