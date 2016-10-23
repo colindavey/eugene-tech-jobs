@@ -22,11 +22,11 @@
 			foreach($in_docs as $doc) {
 				//collapse doc and strip fields not intended for client to see
 				$reduced_doc = array(
-					"name"=>$doc["name"],
-					"link"=>$doc["link"],
-					"state"=>$doc["location"]["state"],
-					"city"=>$doc["location"]["city"],
-					"openjobcount"=>$doc["openjobcount"]
+					"name"=>trim($doc["name"])),
+					"link"=>trim($doc["link"]),
+					"state"=>trim($doc["location"]["state"]),
+					"city"=>trim($doc["location"]["city"]),
+					"openjobcount"=>trim($doc["openjobcount"])
 				);
 				array_push($company_objects, $reduced_doc);
 			}
@@ -154,12 +154,12 @@
 			$company_docs = $db->Companies->find(array("_id"=>(new MongoID($_POST["_id"]))));
 			if($company_docs->hasNext()) {
 				$doc = $company_docs->getNext();
-				$doc["name"] = $_POST["name"];
-				$doc["link"] = $_POST["link"];
-				$doc["openjobcount"] = $_POST["openjobcount"];
+				$doc["name"] = trim($_POST["name"]);
+				$doc["link"] = trim($_POST["link"]);
+				$doc["openjobcount"] = trim($_POST["openjobcount"]);
 				$doc["location"] = array(
-					"state"=>strtolower($_POST["state"]),
-					"city"=>strtolower($_POST["city"])
+					"state"=>strtolower(trim($_POST["state"])),
+					"city"=>strtolower(trim($_POST["city"]))
 				);
 				
 				$db->Companies->update(array("_id"=>$doc["_id"]), $doc);
