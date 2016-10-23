@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 		}
 	});
 	
-	jQuery('#cityFilters').click(function() {
+	jQuery('#cityFilters').change(function() {
 		var city_filter = jQuery('#cityFilters').val();
 		var all_companies = jQuery('.company-item');
 		if(city_filter != "blank") {
