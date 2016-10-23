@@ -16,7 +16,7 @@
 
 #Ensures that no editing utilities may be accessed without authorization.
 #Regex should reflect API construct path.
-SetEnvIf Request_URI ^/jobs/.+$ not_index
+SetEnvIf Request_URI ^/jobs/(?!oregon).+$ not_index
 
 AuthUserFile /home/project/passwd/.htpasswd
 #AuthGroupFile /dev/null
