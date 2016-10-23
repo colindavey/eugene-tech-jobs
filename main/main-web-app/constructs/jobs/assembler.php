@@ -22,7 +22,7 @@
 			foreach($in_docs as $doc) {
 				//collapse doc and strip fields not intended for client to see
 				$reduced_doc = array(
-					"name"=>trim($doc["name"])),
+					"name"=>trim($doc["name"]),
 					"link"=>trim($doc["link"]),
 					"state"=>trim($doc["location"]["state"]),
 					"city"=>trim($doc["location"]["city"]),
