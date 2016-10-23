@@ -47,11 +47,14 @@ img.shire-logo {
 
 .hiring-toggle {
     font-size: 120%;
-    margin-bottom: 1.5em
 }
 
 .hiring-toggle input {
     margin-right: 10px
+}
+
+.city-filter {
+    margin-bottom: 1.5em
 }
 
 #jobsList {
