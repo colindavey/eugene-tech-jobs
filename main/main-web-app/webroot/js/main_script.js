@@ -28,13 +28,15 @@ jQuery(document).ready(function() {
 		else {
 			all_companies.show();
 		}
+		var numCompanies = jQuery(".company-item:visible").length;
+		var numCompaniesHiring = numCompanies - jQuery(".no-openings:visible").length;
+		jQuery("#numCompanies").text(numCompanies);
+		jQuery("#numJobs").text(numCompaniesHiring);
 	});
 });
 
 var companiesHtml;
 var companiesHiringHtml;
-var numCompanies;
-var numCompaniesHiring;
 
 function toggleHiring() {
 	jQuery("#jobsList").empty();
@@ -51,8 +53,8 @@ function initDataDOM(data) {
         return (entry.openings);
     });
 
-    numCompanies = companies.size();
-    numCompaniesHiring = companiesHiring.size();
+    var numCompanies = companies.size();
+    var numCompaniesHiring = companiesHiring.size();
     companiesHtml = "";
 	companiesHiringHtml = "";
     var outerColumnStyle = "col-sm-12 col-md-6";
@@ -70,8 +72,8 @@ function initDataDOM(data) {
 	companiesHiringHtml += makeOuterColumn(cutoff2, cutoff3, numCompaniesHiring, companiesHiring, outerColumnStyle);
 	
 	jQuery("#numJobs").text(companies.sumBy('openings'));
-	updateDOM();
 	setCityDropdownFilters(data);
+	updateDOM();
 }
 
 function getUniqueCities(data) {
@@ -97,12 +99,11 @@ function setCityDropdownFilters(data) {
 
 function updateDOM() {
 	if (jQuery("#chkHiring").prop("checked")) {
-		jQuery("#numCompanies").text(numCompaniesHiring);
 		jQuery("#jobsList").append(companiesHiringHtml);
 	} else {
-		jQuery("#numCompanies").text(numCompanies);
 		jQuery("#jobsList").append(companiesHtml);
 	}
+	jQuery('#cityFilters').change();
 }
 
 function makeOuterColumn(begin, middle, end, companies, bootstrap_style_str) {
