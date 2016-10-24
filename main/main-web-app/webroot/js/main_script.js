@@ -30,7 +30,7 @@ jQuery(document).ready(function() {
 		}
 		var numCompanies = jQuery(".company-item:visible").length;
 		var numCompaniesHiring = 0;
-		jQuery(".company-job-openings .label-primary").each(function() {
+		jQuery(".company-job-openings .label-primary:visible").each(function() {
 			numCompaniesHiring += parseInt(jQuery(this).text());
 		});
 		jQuery("#numCompanies").text(numCompanies);
