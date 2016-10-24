@@ -29,7 +29,10 @@ jQuery(document).ready(function() {
 			all_companies.show();
 		}
 		var numCompanies = jQuery(".company-item:visible").length;
-		var numCompaniesHiring = numCompanies - jQuery(".no-openings:visible").length;
+		var numCompaniesHiring = 0;
+		jQuery(".company-job-openings .label-primary").each(function() {
+			numCompaniesHiring += parseInt(jQuery(this).text());
+		});
 		jQuery("#numCompanies").text(numCompanies);
 		jQuery("#numJobs").text(numCompaniesHiring);
 	});
